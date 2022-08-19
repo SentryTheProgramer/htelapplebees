@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apple</title>
+    <link rel="icon" href="apple4.png">
+    <STYLE>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+*{font-family: poppins,'sans-serif'; margin: 0; padding: 0; }
+body{  background-color:black ;
+overflow-x: hidden;
+color: aliceblue;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0.795);
+    position: sticky;
+    top: 0px;
+    
+
+}
+.nav ul li a{text-decoration: none;}
+.nav ul li {
+
+    display: inline-flex;
+    font-size: 15px;
+    padding-left:40px ;
+    transition: 2s ease-out;
+    cursor: pointer;
+    color: rgb(252, 252, 252);
+}
+.nav ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+    
+#nav2{
+	width: 100%;
+	height: 50px;
+	background: #000000; 
+    position: sticky;
+    top: 0px;
+    font-size: 30px;
+   color: rgba(255, 255, 255, 0.555);
+
+    
+}
+#nav2 h5{
+	float: right;
+	background: blue;
+    padding-left:20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.img1 {
+    text-align: center;
+ 
+    font-size:25px;
+}
+.img1 p{
+    color:rgba(245, 245, 245, 0.568);
+}
+.cont1{
+    height: 80vh;
+    width: 95%;
+    background: linear-gradient(90deg,rgb(57,38,77), rgb(155, 6, 155),rgb(93,32,69),rgba(255, 255, 0, 0.795));
+    border-radius: 20px;
+    margin-left: 30px;
+   
+
+}
+.cont2{
+    background-color: rgb(41, 204, 41);
+    height: 80vh;
+    width: 95%;
+
+
+}
+
+</STYLE>
+</head>
+<body>
+<div class="nav">
+<ul>
+    <li><a href="#"><ion-icon name="logo-apple" style="color: grey; font-size: 30PX; " ></ion-icon></a></li>
+    <li><a href="#">iphone</a></li>
+    <li><a href="#">mac </a></li>
+    <li><a href="#"><ion-icon name="logo-apple"></ion-icon>watch</a></li>
+    <li><a href="#">ipad</a></li>
+    <li><a href="#">Air pods</a></li>
+     <li><a href="#">Apple accessories</a></li>
+     <li><a href="#">support</a></li>
+</ul>
+
+</div>
+<div id="nav2">MacBook pro 13"<h5> Buy</h5></div>
+
+
+
+<div class="section1">
+<p style=" font-size: 35px; position: absolute; bottom: 300px; left: 40%;">MacBook pro</p>
+<p></p>
+
+</div>
+
+
+<div class="bigpara1" style="position: absolute; left: 20%; bottom: 180px; font-size: 100px; color: rgba(197, 191, 191, 0.76);">All systems Pro.</div>
+
+<div class="smallpara1" style="text-align: center; font-size: 25px; color: rgba(255, 255, 255, 0.459);">The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. <br>
+    With up to 2.8x CPU performance. Up to 5x the graphics speed. 
+    <br>An advanced Neural Engine for up to 11x faster machine learning. <br>
+    And up to 20 hours of battery life so you can go all day. <br>
+    It’s our most popular pro notebook, taken to a whole new level.</div>
+
+
+
+<div class="img1"><img src="m4.jpg" > 
+    <p>Supercharged by the Apple M1 chip</p>
+    <div class="s1">
+        From $1299 
+     </div>
+</div>
+
+
+
+<div class="1mg2" style="margin-left: 100px;margin-top: 300px;">
+<img src="m1chip.png">
+
+<p style="font-size:80px;">Small chip. Giant leap.</p>
+
+<p style="font-size: 25px; color: rgba(255, 255, 255, 0.5);"> It’s here. Our first chip designed specifically for Mac.<br>
+     Packed with an astonishing 16 billion transistors,<br>
+      the Apple M1 system on a chip (SoC) integrates the CPU, GPU, Neural Engine, I/O, <br>
+      and so much more onto a single tiny chip. With incredible performance, custom technologies, 
+      and industry-leading power efficiency,1 M1 is not just a next step for Mac — it’s another level entirely.<br>
+
+</p>
+
+
+
+</div>
+<div class="img3">
+    <img src="m1.jpg" >
+</div>
+
+<div class="cont1">
+<img src="mac3.png" style="float: right; margin-top: 100px;">
+<p style="margin-left: 25px; font-size: 20px;"> CPU</p>
+
+<p style="font-size: 60px; color: rgb(194, 187, 230); margin-left: 10px; font-weight: bold;">
+    8-core CPU <br>
+    We’re on a <br>
+    power chip.</p>
+
+    <p style="margin-left: 10px;">The M1 chip makes MacBook Pro outrageously fast and powerful.<br>
+         Its 8‑core CPU rips through complex workflows and heavy workloads,<br>
+          with up to 2.8x faster processing performance than the previous <br>
+          generation2 — all with unbelievable energy efficiency.</p>
+            <BUTton style="padding: 10px; background: transparent; border: 2px solid white;  border-radius: 35px;">See how M1 redefines speed</BUTton>
+
+</div>
+
+
+<div class="cont2">
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
